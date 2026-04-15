@@ -14,7 +14,7 @@ html, body {
 /*NAV*/
 nav {
   background: #2c2c2c; /* color de fondo oscuro */
-  padding: 10px 40px 10px; /* espacio interno arriba/abajo y lados */
+  padding: 15px 60px ; /* espacio interno arriba/abajo y lados */
   overflow: hidden; /* contiene los elementos flotantes internos */
 }
 
@@ -23,17 +23,17 @@ nav {
   color: white; /* color del texto */
   font-size: 30px; /* tamaño de la fuente */
   font-weight: 300; /* grosor fino de la fuente */
-  line-height: 1.6; /* altura de línea para centrar verticalmente */
+  line-height: 1.2; /* altura de línea para centrar verticalmente */
 }
 
 .nombre-nav strong {
-  font-weight: 700; /* negrilla para el primer nombre */
+  font-weight: bolder; /* negrilla para el primer nombre */
 }
 
 .enlaces-nav {
   float: right; /* empuja los enlaces al extremo derecho */
-  line-height: 1.6; /* altura de línea para alinear con el nombre */
- margin-top: 5px; /* empuja los enlaces hacia abajo para abajo*/
+  line-height: 1.2; /* altura de línea para alinear con el nombre */
+  margin-right: 46px;/* empuja los enlaces hacia abajo para abajo*/
 }
 
 .enlaces-nav a {
@@ -62,21 +62,23 @@ main {
 /*SECCIÓN 1 — INICIO*/
 .inicio {
   background: #ffffff; /* fondo blanco */
-  padding: 50px 50px; /* espacio interno generoso */
+  padding: 60px 60px; /* espacio interno generoso */
   overflow: hidden; /* contiene los floats internos */
   min-height: 420px; /* altura mínima para que no quede muy pequeña */
 }
 
 .imagen-inicio {
   float: left; /* la imagen flota a la izquierda */
-  width: 45%; /* ocupa el 45% del ancho */
+  width: 27%; /* ocupa el 45% del ancho */
   text-align: center; /* centra la imagen dentro del contenedor */
   padding-top: 20px; /* baja un poco la imagen */
+  margin-left: 400px;
 }
 
 .imagen-inicio img {
   width: 100%; /* la imagen ocupa todo el ancho de su contenedor */
   max-width: 400px; /* pero no más de 380px */
+  
 }
 
 .texto-inicio {
@@ -88,7 +90,7 @@ main {
 .texto-inicio h1 {
   font-size: 52px; /* título grande */
   font-weight: 700; /* negrilla */
-  color: #3c94e7; /* color rojo */
+  color: #e74c3c; /* color rojo */
   margin-bottom: 20px; /* espacio debajo del título */
   line-height: 1.1; /* altura de línea compacta */
 }
@@ -100,12 +102,14 @@ main {
   margin-bottom: 30px; /* espacio antes del botón */
 }
 
+
+
 .boton-rojo {
-  background: #1f8be4; /* fondo rojo */
+  background: #e74c3c; /* fondo rojo */
   color: white; /* texto blanco */
   border: none; /* sin borde */
-  padding: 14px 28px; /* espacio interno del botón */
-  font-size: 30px; /* tamaño de texto del botón */
+  padding: 8px 8px; /* espacio interno del botón */
+  font-size: 20px; /* tamaño de texto del botón */
   font-weight: 600; /* texto semi-negrilla */
   border-radius: 4px; /* esquinas ligeramente redondeadas */
   cursor: pointer; /* cursor de manita al pasar el mouse */
@@ -114,14 +118,14 @@ main {
 }
 
 .boton-rojo:hover {
-  background: #356fdb; /* rojo más oscuro al pasar el mouse */
+  background: #c0392b; /* rojo más oscuro al pasar el mouse */
 }
 
 /* SECCIÓN 2 — QUIEN SOY */
 .quien-soy {
-  background: #3c94e7; /* fondo rojo */
-  padding: 60px 80px; /* espacio interno */
-  text-align: center; /* centra todo el contenido */
+  background: #e74c3c;
+  padding: 13px 60px 20px;
+  text-align: center;
 }
 
 .foto-perfil {
@@ -129,7 +133,7 @@ main {
   height: 200px; /* alto fijo del avatar */
   border-radius: 50%; /* hace la imagen circular */
   border: 6px solid white; /* borde blanco alrededor del círculo */
-  margin: 0 auto 40px auto; /* centra horizontalmente y agrega espacio abajo */
+  margin: 0 auto 20px auto; /* centra horizontalmente y agrega espacio abajo */
   object-fit: cover; /* recorta la imagen sin deformarla */
 }
 
@@ -150,7 +154,7 @@ main {
 /*SECCIÓN 3 — PROYECTOS*/
 .proyectos {
   background: #f2f2f2; /* fondo gris claro */
-  padding: 60px 40px; /* espacio interno */
+  padding: 30px 60px; /* espacio interno */
   overflow: hidden; /* contiene los floats de las tarjetas */
 }
 
@@ -210,12 +214,12 @@ footer {
   background: #2c2c2c; /* fondo oscuro igual que el nav */
   color: #aaa; /* texto gris claro */
   font-size: 12px; /* texto pequeño */
-   padding: 20px 40px 43px; /* espacio interno del footer */
+   padding: 20px 40px 46px; /* espacio interno del footer */
   text-align: center;  /* centra el texto */
 
   
 }
 
 .footer {
-  margin-left: 1400px; /*texto hacia la derecha */
+  margin-left: 1350px; /*texto hacia la derecha */
 }
